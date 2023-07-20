@@ -1,0 +1,34 @@
+body {
+    font-family: arial, sans-serif;
+}
+ h5 {
+    padding: 10px 200px;
+    color: olive;
+    
+}
+.chat-container {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+.chat-output {
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.chat-input{
+    display: flex;
+    align-items: center;
+}
+.chat-input input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
